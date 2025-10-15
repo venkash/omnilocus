@@ -17,10 +17,6 @@ function Gallery() {
       alt: 'Living room view'
     },
     {
-      url: '/Living room 2.png',
-      alt: 'Living room design'
-    },
-    {
       url: '/20251015_1624_Empty Living Room_remix_01k7mw2hm2f779wg859ftv7mqa.png',
       alt: 'Empty living room'
     }
