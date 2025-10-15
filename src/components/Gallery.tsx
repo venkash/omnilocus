@@ -19,6 +19,14 @@ function Gallery() {
     {
       url: '/Living Room2-Furnished copy copy.webp',
       alt: 'Living Room 2 - After Staging'
+    },
+    {
+      url: '/Bedroom - Before Staging copy.png',
+      alt: 'Bedroom - Before Staging'
+    },
+    {
+      url: '/Bedroom - After Staging copy.png',
+      alt: 'Bedroom - After Staging'
     }
   ]
 
