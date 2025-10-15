@@ -77,6 +77,8 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: 500px;
 }
 
 .about-image img {
@@ -84,7 +86,9 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: opacity 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -109,6 +113,10 @@
   .about-container {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .about-image {
+    height: 300px;
   }
 
   .about-content h2 {
