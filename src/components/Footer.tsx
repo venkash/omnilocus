@@ -16,6 +16,7 @@ function Footer() {
             <h4>Contact</h4>
             <p>19247 Goodnight Peak Trl</p>
             <p>Cypress, TX 77433</p>
+            <p>(832) 408-1743</p>
             <p>omnilocustx@gmail.com</p>
           </div>
 
