@@ -1,32 +1,28 @@
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('/Living_Room1_Unfurnished.png') center/cover no-repeat;
+    url('/Living Room1-Unfurnished.png') center/cover no-repeat;
   color: white;
   position: relative;
   animation: heroSlideshow 12s infinite;
 }
 
 @keyframes heroSlideshow {
-  0%, 20% {
+  0%, 25% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/Living_Room1_Unfurnished.png') center/cover no-repeat;
+      url('/Living Room1-Unfurnished.png') center/cover no-repeat;
   }
-  21%, 40% {
+  26%, 50% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/Living_Room1_Furnished.png') center/cover no-repeat;
+      url('/Living Room1-Furnished.png') center/cover no-repeat;
   }
-  41%, 60% {
+  51%, 75% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/Living_Room2_Unfurnished.png') center/cover no-repeat;
+      url('/Living Room2-Unfurnished.png') center/cover no-repeat;
   }
-  61%, 80% {
+  76%, 100% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover no-repeat;
-  }
-  81%, 100% {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover no-repeat;
+      url('/Living Room2-Furnished.webp') center/cover no-repeat;
   }
 }
 
