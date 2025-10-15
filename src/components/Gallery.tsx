@@ -17,16 +17,8 @@ function Gallery() {
       alt: 'Living room view'
     },
     {
-      url: '/Living room copy.webp',
-      alt: 'Living room angle 2'
-    },
-    {
       url: '/Living room 2.png',
       alt: 'Living room design'
-    },
-    {
-      url: '/Living room 2 copy.png',
-      alt: 'Living room styled'
     }
   ]
 
