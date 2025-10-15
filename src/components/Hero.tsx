@@ -6,10 +6,9 @@ function Hero() {
       <nav className="nav">
         <div className="nav-container">
           <div className="logo">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 4L4 16V36H16V26H24V36H36V16L20 4Z" fill="white" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <circle cx="20" cy="18" r="2" fill="#2c5f2d"/>
-              <rect x="28" y="20" width="4" height="6" fill="#2c5f2d"/>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 6L6 14L6 26L26 26L26 14L16 6Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" opacity="0.6"/>
+              <path d="M13 26V19H19V26" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" opacity="0.6"/>
             </svg>
             <span>OMNILOCUS</span>
           </div>
