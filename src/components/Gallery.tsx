@@ -13,12 +13,8 @@ function Gallery() {
       alt: 'Living Room 1 - After Staging'
     },
     {
-      url: '/Living Room2-Unfurnished.png',
-      alt: 'Living Room 2 - Before Staging'
-    },
-    {
       url: '/Living Room2-Furnished.webp',
-      alt: 'Living Room 2 - After Staging'
+      alt: 'Living Room 2 - Professionally Staged'
     },
     {
       url: '/Living Room 3-Furnished.png',
