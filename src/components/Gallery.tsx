@@ -13,10 +13,6 @@ function Gallery() {
       alt: 'Living room - Furnished'
     },
     {
-      url: '/Living room.webp',
-      alt: 'Living room view'
-    },
-    {
       url: '/20251015_1624_Empty Living Room_remix_01k7mw2hm2f779wg859ftv7mqa.png',
       alt: 'Empty living room'
     },
