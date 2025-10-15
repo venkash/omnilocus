@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>OMNILOCUS</h3>
-            <p>Professional home staging services in Cypress, TX</p>
+            <p>Professional home staging services in Houston, TX</p>
           </div>
 
           <div className="footer-section">
