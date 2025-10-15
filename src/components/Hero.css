@@ -8,19 +8,15 @@
 }
 
 @keyframes heroSlideshow {
-  0%, 25% {
+  0%, 33% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room1-Unfurnished.png') center/cover no-repeat;
   }
-  26%, 50% {
+  34%, 66% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room1-Furnished.png') center/cover no-repeat;
   }
-  51%, 75% {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/Living Room2-Unfurnished.png') center/cover no-repeat;
-  }
-  76%, 100% {
+  67%, 100% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room2-Furnished.webp') center/cover no-repeat;
   }
