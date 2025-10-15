@@ -5,28 +5,28 @@ function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const images = [
     {
-      url: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Living room'
+      url: '/Living Room_Unfurnished.png',
+      alt: 'Living room - Unfurnished'
     },
     {
-      url: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Master bedroom'
+      url: '/Living Room_Furnished.png',
+      alt: 'Living room - Furnished'
     },
     {
-      url: 'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Guest bedroom'
+      url: '/Living room.webp',
+      alt: 'Living room view'
     },
     {
-      url: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Dining room'
+      url: '/Living room copy.webp',
+      alt: 'Living room angle 2'
     },
     {
-      url: 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Kitchen'
+      url: '/Living room 2.png',
+      alt: 'Living room design'
     },
     {
-      url: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Bathroom'
+      url: '/Living room 2 copy.png',
+      alt: 'Living room styled'
     }
   ]
 
