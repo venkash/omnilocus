@@ -6,11 +6,19 @@ function Gallery() {
   const images = [
     {
       url: '/Living Room1-Unfurnished copy copy.png',
-      alt: 'Living Room - Before Staging'
+      alt: 'Living Room 1 - Before Staging'
     },
     {
       url: '/Living Room1-Furnished copy copy.png',
-      alt: 'Living Room - After Staging'
+      alt: 'Living Room 1 - After Staging'
+    },
+    {
+      url: '/Living Room2-Unfurnished copy.png',
+      alt: 'Living Room 2 - Before Staging'
+    },
+    {
+      url: '/Living Room2-Furnished copy copy.webp',
+      alt: 'Living Room 2 - After Staging'
     }
   ]
 
