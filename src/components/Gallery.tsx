@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import './Gallery.css'
 
 function Gallery() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const images = [
     {
       url: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -62,7 +64,7 @@ function Gallery() {
 
         <div className="gallery-grid">
           {images.map((image, index) => (
-            <div key={index} className="gallery-item">
+            <div key={index} className="gallery-item" onClick={() => setSelectedImage(image.url)}>
               <img src={image.url} alt={image.alt} />
               <div className="gallery-overlay">
                 <span>{image.alt}</span>
@@ -70,6 +72,15 @@ function Gallery() {
             </div>
           ))}
         </div>
+
+        {selectedImage && (
+          <div className="lightbox" onClick={() => setSelectedImage(null)}>
+            <div className="lightbox-content">
+              <button className="lightbox-close" onClick={() => setSelectedImage(null)}>&times;</button>
+              <img src={selectedImage} alt="Full size view" />
+            </div>
+          </div>
+        )}
 
         <div className="gallery-cta">
           <h3>Ready to Transform Your Property?</h3>
