@@ -5,20 +5,24 @@ function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const images = [
     {
-      url: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Living Room 1 - Unfurnished'
+      url: '/Living Room1-Unfurnished.png',
+      alt: 'Living Room 1 - Before Staging'
     },
     {
-      url: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Living Room 1 - Furnished'
+      url: '/Living Room1-Furnished.png',
+      alt: 'Living Room 1 - After Staging'
     },
     {
-      url: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Living Room 2 - Unfurnished'
+      url: '/Living Room2-Unfurnished.png',
+      alt: 'Living Room 2 - Before Staging'
     },
     {
-      url: 'https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Living Room 2 - Furnished'
+      url: '/Living Room2-Furnished.webp',
+      alt: 'Living Room 2 - After Staging'
+    },
+    {
+      url: '/Living Room 3-Furnished.png',
+      alt: 'Living Room 3 - Professionally Staged'
     }
   ]
 
