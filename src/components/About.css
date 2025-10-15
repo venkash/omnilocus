@@ -32,6 +32,26 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
   margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.about-button {
+  display: inline-block;
+  background-color: #2c5f2d;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(44, 95, 45, 0.2);
+}
+
+.about-button:hover {
+  background-color: #1e4620;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(44, 95, 45, 0.3);
 }
 
 .stat {

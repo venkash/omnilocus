@@ -30,6 +30,7 @@ function About() {
               <div className="stat-label">Homes Staged</div>
             </div>
           </div>
+          <a href="#contact" className="about-button">Get Started Today</a>
         </div>
         <div className="about-image">
           <img

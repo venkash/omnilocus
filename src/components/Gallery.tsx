@@ -25,6 +25,30 @@ function Gallery() {
     {
       url: 'https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Inviting entryway'
+    },
+    {
+      url: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Luxury master suite'
+    },
+    {
+      url: 'https://images.pexels.com/photos/2029667/pexels-photo-2029667.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Modern home office'
+    },
+    {
+      url: 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Bright open concept'
+    },
+    {
+      url: 'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Stylish bathroom design'
+    },
+    {
+      url: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Chic living space'
+    },
+    {
+      url: 'https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Elegant family room'
     }
   ]
 
@@ -45,6 +69,12 @@ function Gallery() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="gallery-cta">
+          <h3>Ready to Transform Your Property?</h3>
+          <p>Let's create a space that sells itself</p>
+          <a href="#contact" className="gallery-button">Get Your Free Quote</a>
         </div>
       </div>
     </section>

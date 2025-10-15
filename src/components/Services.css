@@ -78,6 +78,86 @@
   font-weight: 700;
 }
 
+.service-button {
+  display: inline-block;
+  background-color: #2c5f2d;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 24px;
+}
+
+.service-button:hover {
+  background-color: #1e4620;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44, 95, 45, 0.3);
+}
+
+.services-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 64px;
+}
+
+.info-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  border-color: #2c5f2d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.info-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.info-content p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #4a5568;
+  margin-bottom: 20px;
+}
+
+.info-button {
+  display: inline-block;
+  background-color: #2c5f2d;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #1e4620;
+  transform: translateX(4px);
+}
+
 @media (max-width: 768px) {
   .services {
     padding: 64px 24px;
@@ -92,6 +172,15 @@
   }
 
   .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-info {
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+  }
+
+  .info-card {
     grid-template-columns: 1fr;
   }
 }
