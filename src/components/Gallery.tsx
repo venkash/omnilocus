@@ -6,51 +6,27 @@ function Gallery() {
   const images = [
     {
       url: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Modern living room staging'
-    },
-    {
-      url: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Modern bathroom design'
-    },
-    {
-      url: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Stylish dining area'
-    },
-    {
-      url: 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Contemporary kitchen staging'
-    },
-    {
-      url: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Cozy reading nook'
-    },
-    {
-      url: 'https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Inviting entryway'
+      alt: 'Living room'
     },
     {
       url: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Luxury master suite'
+      alt: 'Master bedroom'
     },
     {
-      url: 'https://images.pexels.com/photos/2029667/pexels-photo-2029667.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Modern home office'
+      url: 'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Guest bedroom'
     },
     {
-      url: 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Bright open concept'
+      url: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Dining room'
     },
     {
-      url: 'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Stylish bathroom design'
+      url: 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Kitchen'
     },
     {
-      url: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Chic living space'
-    },
-    {
-      url: 'https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Elegant family room'
+      url: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Bathroom'
     }
   ]
 
