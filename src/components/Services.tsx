@@ -42,8 +42,28 @@ function Services() {
                   <li key={idx}>{feature}</li>
                 ))}
               </ul>
+              <a href="#contact" className="service-button">Learn More</a>
             </div>
           ))}
+        </div>
+
+        <div className="services-info">
+          <div className="info-card">
+            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional staging" />
+            <div className="info-content">
+              <h3>Why Choose Professional Staging?</h3>
+              <p>Staged homes sell 88% faster and for 20% more than vacant properties. Make your investment count.</p>
+              <a href="#contact" className="info-button">Start Today</a>
+            </div>
+          </div>
+          <div className="info-card">
+            <img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Consultation" />
+            <div className="info-content">
+              <h3>Free Consultation Available</h3>
+              <p>Not sure where to start? We offer complimentary consultations to assess your property's needs.</p>
+              <a href="#contact" className="info-button">Book Now</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
