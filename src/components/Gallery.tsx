@@ -5,6 +5,14 @@ function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const images = [
     {
+      url: '/Living Room1-Unfurnished copy copy.png',
+      alt: 'Living Room - Before Staging'
+    },
+    {
+      url: '/Living Room1-Furnished copy copy.png',
+      alt: 'Living Room - After Staging'
+    },
+    {
       url: '/Living Room1-Unfurnished.png',
       alt: 'Living Room 1 - Before Staging'
     },
