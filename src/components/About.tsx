@@ -38,7 +38,7 @@ function About() {
             sales and higher offers.
           </p>
           <p>
-            With years of experience serving the Cypress, TX area, we understand the local market and what
+            With years of experience serving the Greater Houston area, we understand the local market and what
             buyers are looking for. From modern minimalist to classic elegance, we create stunning spaces
             that highlight your property's best features.
           </p>
