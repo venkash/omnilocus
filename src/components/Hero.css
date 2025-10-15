@@ -1,7 +1,7 @@
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('/Living Room_Unfurnished.png') center/cover no-repeat;
+    url('/Living_Room1_Unfurnished.png') center/cover no-repeat;
   color: white;
   position: relative;
   animation: heroSlideshow 12s infinite;
@@ -10,15 +10,15 @@
 @keyframes heroSlideshow {
   0%, 20% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/Living Room_Unfurnished.png') center/cover no-repeat;
+      url('/Living_Room1_Unfurnished.png') center/cover no-repeat;
   }
   21%, 40% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/Living Room_Furnished.png') center/cover no-repeat;
+      url('/Living_Room1_Furnished.png') center/cover no-repeat;
   }
   41%, 60% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('/20251015_1624_Empty Living Room_remix_01k7mw2hm2f779wg859ftv7mqa.png') center/cover no-repeat;
+      url('/Living_Room2_Unfurnished.png') center/cover no-repeat;
   }
   61%, 80% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
