@@ -27,6 +27,14 @@ function Gallery() {
     {
       url: '/Bedroom - After Staging copy.png',
       alt: 'Bedroom - After Staging'
+    },
+    {
+      url: '/Living Room3 - Unfurnished copy.png',
+      alt: 'Living Room 3 - Before Staging'
+    },
+    {
+      url: '/Living Room 3-Furnished copy copy.png',
+      alt: 'Living Room 3 - After Staging'
     }
   ]
 

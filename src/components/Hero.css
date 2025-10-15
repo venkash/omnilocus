@@ -4,31 +4,39 @@
     url('/Living Room1-Unfurnished.png') center/cover no-repeat;
   color: white;
   position: relative;
-  animation: heroSlideshow 16s infinite;
+  animation: heroSlideshow 24s infinite;
 }
 
 @keyframes heroSlideshow {
-  0%, 16.66% {
+  0%, 12.5% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room1-Unfurnished copy copy.png') center/cover no-repeat;
   }
-  16.67%, 33.33% {
+  12.51%, 25% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room1-Furnished copy copy.png') center/cover no-repeat;
   }
-  33.34%, 50% {
+  25.01%, 37.5% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room2-Unfurnished copy.png') center/cover no-repeat;
   }
-  50.01%, 66.66% {
+  37.51%, 50% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Living Room2-Furnished copy copy.webp') center/cover no-repeat;
   }
-  66.67%, 83.33% {
+  50.01%, 62.5% {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url('/Living Room3 - Unfurnished copy.png') center/cover no-repeat;
+  }
+  62.51%, 75% {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url('/Living Room 3-Furnished copy copy.png') center/cover no-repeat;
+  }
+  75.01%, 87.5% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Bedroom - Before Staging copy.png') center/cover no-repeat;
   }
-  83.34%, 100% {
+  87.51%, 100% {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url('/Bedroom - After Staging copy.png') center/cover no-repeat;
   }
