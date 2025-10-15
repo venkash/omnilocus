@@ -11,22 +11,6 @@ function Gallery() {
     {
       url: '/Living Room1-Furnished copy copy.png',
       alt: 'Living Room - After Staging'
-    },
-    {
-      url: '/Living Room1-Unfurnished.png',
-      alt: 'Living Room 1 - Before Staging'
-    },
-    {
-      url: '/Living Room1-Furnished.png',
-      alt: 'Living Room 1 - After Staging'
-    },
-    {
-      url: '/Living Room2-Furnished.webp',
-      alt: 'Living Room 2 - Professionally Staged'
-    },
-    {
-      url: '/Living Room 3-Furnished.png',
-      alt: 'Living Room 3 - Professionally Staged'
     }
   ]
 
