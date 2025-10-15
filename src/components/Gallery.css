@@ -10,48 +10,7 @@
 
 .gallery-header {
   text-align: center;
-  margin-bottom: 40px;
-}
-
-.gallery-filters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 48px;
-}
-
-.filter-button {
-  padding: 10px 24px;
-  background: white;
-  border: 2px solid #dee2e6;
-  border-radius: 25px;
-  font-size: 0.95rem;
-  color: #495057;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 500;
-}
-
-.filter-button:hover {
-  border-color: #2c5f2d;
-  color: #2c5f2d;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(44, 95, 45, 0.15);
-}
-
-.filter-button.active {
-  background: #2c5f2d;
-  border-color: #2c5f2d;
-  color: white;
-  box-shadow: 0 4px 12px rgba(44, 95, 45, 0.3);
-}
-
-.no-results {
-  text-align: center;
-  padding: 60px 20px;
-  color: #6c757d;
-  font-size: 1.1rem;
+  margin-bottom: 64px;
 }
 
 .gallery-header h2 {
