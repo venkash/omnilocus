@@ -9,8 +9,8 @@ function Gallery() {
       alt: 'Modern living room staging'
     },
     {
-      url: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Elegant bedroom setup'
+      url: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
+      alt: 'Modern bathroom design'
     },
     {
       url: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800',
