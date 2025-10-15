@@ -19,6 +19,14 @@ function Gallery() {
     {
       url: '/20251015_1624_Empty Living Room_remix_01k7mw2hm2f779wg859ftv7mqa.png',
       alt: 'Empty living room'
+    },
+    {
+      url: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      alt: 'Modern bathroom - Before staging'
+    },
+    {
+      url: 'https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      alt: 'Modern bathroom - After staging'
     }
   ]
 
